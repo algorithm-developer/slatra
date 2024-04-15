@@ -18,6 +18,6 @@ Counter-Strike 2 тоглоомын суулгасан path-руу хандаж 
 Steam library дотроос Counter-Strike 2 дээр mouse2 дараад properties-руу орно. Дараа нь General цэсний Launch options хэсэгт доорх кодыг хуулна
 
 ```bash
-  -console -high -full -refresh 540 -nojoy -softparticlesdefaultoff -forcenovsync -limitvsconst +cl_forcepreload 1 +sv_lan 1 +fps_max 0 +r_drawparticles 0 +mat_disable_fancy_blending 1 +r_dynamic 0 +violence_hblood 0
+  -console -high -tickrate 128 -refresh 540 -nojoy -softparticlesdefaultoff -forcenovsync -limitvsconst +cl_forcepreload 1 +sv_lan 1 +fps_max 0 +r_drawparticles 0 +mat_disable_fancy_blending 1 +r_dynamic 0 +violence_hblood 0
 ```
     
